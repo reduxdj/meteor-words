@@ -1,7 +1,7 @@
 Package.describe({
   name: "reduxfj:meteor-words",
   summary: "A Meteor Wrapper for wordnet",
-  version: "0.9",
+  version: "0.0.9",
   git: "https://github.com/reduxdj/meteor-words"
 });
 
