@@ -1,2 +1,2 @@
 # meteor-words
-A Meteor wrapper fo wordnet
+A Meteor wrapper for wordnet
