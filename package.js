@@ -1,6 +1,6 @@
 Package.describe({
   name: "reduxfj:meteor-words",
-  summary: "A Meteor Wrapper for wordnet",
+  summary: "A Meteor Wrapper for Wordnet",
   version: "0.0.9",
   git: "https://github.com/reduxdj/meteor-words"
 });
@@ -11,13 +11,7 @@ Npm.depends({
 });
 
 Package.on_use(function (api, where) {
-  api.add_files('wordnet.js', 'server');
-  api.use(
-    [
-    'meteorhacks:npm@1.4.0',
-    'meteorhacks:unblock@1.1.0'
-    ],
-    'server')
+  api.add_files('wordnet.js', 'server')
   api.export('WordNet','server')
   api.export('wndb','server')
 });
